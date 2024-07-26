@@ -1,0 +1,71 @@
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: lightgreen;
+    justify-content: center;
+    width: 20%;
+    height: 400px;
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 100px;
+    flex-direction: row;
+    background-color: green;
+}
+.three{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+}
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height:200px ;
+    width: 80%;
+    text-align: center;
+    flex-grow: 1;
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    height: 100px;
+    text-align: center;
+    flex-grow: 2;
+}
+.aside{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgreen;
+    text-align: center;
+    justify-content: center;
+    
+    height:300px ;
+    width: 20%;
+}
+.two{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 60%;
+}
+.one{
+    display: flex;
+    flex-wrap: wrap;
+}
+.three{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: column;
+}
+body{ 
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
